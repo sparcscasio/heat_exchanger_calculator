@@ -730,5 +730,5 @@ def start_flask():
 if __name__ == "__main__":
     t = threading.Thread(target=start_flask, daemon=True)
     t.start()
-    webview.create_window("React + Python", "http://localhost:3000")
+    webview.create_window("React + Python", "http://localhost:5173")
     webview.start()
